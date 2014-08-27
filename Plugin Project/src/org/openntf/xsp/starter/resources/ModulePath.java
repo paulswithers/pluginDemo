@@ -15,13 +15,12 @@
  */
 package org.openntf.xsp.starter.resources;
 
-import org.openntf.xsp.starter.Activator;
-import org.openntf.xsp.starter.library.StarterLibrary;
-
 import com.ibm.xsp.resource.DojoModulePathResource;
+import com.paulwithers.iconuk.demoPlugin.Activator;
+import com.paulwithers.iconuk.demoPlugin.Library;
 
 public class ModulePath extends DojoModulePathResource {
-	public final static String NAMESPACE = StarterLibrary.LIBRARY_RESOURCE_NAMESPACE;
+	public final static String NAMESPACE = Library.LIBRARY_RESOURCE_NAMESPACE;
 
 	public ModulePath() {
 		super(NAMESPACE, "/.ibmxspres/." + NAMESPACE + "/" + Activator.getVersion());

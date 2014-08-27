@@ -4,8 +4,7 @@ import javax.faces.FacesException;
 import javax.faces.context.FacesContext;
 import javax.faces.event.PhaseListener;
 
-import org.openntf.xsp.starter.Activator;
-
+import com.paulwithers.iconuk.demoPlugin.Activator;
 import com.sun.faces.lifecycle.LifecycleImpl;
 
 public class Lifecycle extends LifecycleImpl {
