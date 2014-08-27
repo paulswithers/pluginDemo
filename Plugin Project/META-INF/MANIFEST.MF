@@ -24,3 +24,5 @@ Import-Package: com.ibm.commons.util,
 Bundle-ActivationPolicy: lazy
 Export-Package: com.paulwithers.iconuk.demoPlugin
 Require-Bundle: com.ibm.xsp.designer;bundle-version="9.0.0"
+Bundle-ClassPath: lib/commons-lang3-3.3.2.jar,
+ .
