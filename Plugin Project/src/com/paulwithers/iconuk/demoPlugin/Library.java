@@ -5,8 +5,8 @@ import com.ibm.xsp.library.AbstractXspLibrary;
 public class Library extends AbstractXspLibrary {
 	private final static String LIBRARY_ID = Library.class.getName();
 	// change this string to establish a namespace for your resources:
-	public final static String LIBRARY_RESOURCE_NAMESPACE = "Starter";
-	public final static String LIBRARY_BEAN_PREFIX = "Starter";
+	public final static String LIBRARY_RESOURCE_NAMESPACE = "IconUk";
+	public final static String LIBRARY_BEAN_PREFIX = "IconUk";
 	private final static boolean _debug = Activator._debug;
 
 	static {
@@ -38,15 +38,14 @@ public class Library extends AbstractXspLibrary {
 
 	@Override
 	public String[] getXspConfigFiles() {
-		String[] files = new String[] { "META-INF/starter.xsp-config", "META-INF/html.xsp-config", "META-INF/canvas.xsp-config" };
+		String[] files = new String[] {};
 
 		return files;
 	}
 
 	@Override
 	public String[] getFacesConfigFiles() {
-		String[] files = new String[] { "META-INF/starter-faces-config.xml", "META-INF/html-faces-config.xml",
-				"META-INF/canvas-faces-config.xml" };
+		String[] files = new String[] {};
 		return files;
 	}
 
