@@ -7,6 +7,7 @@ import java.security.PrivilegedExceptionAction;
 import java.util.ArrayList;
 
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang3.builder.StandardToStringStyle;
 
 import com.ibm.xsp.extlib.util.ExtLibUtil;
 import com.paulwithers.iconuk.demoPlugin.DemoUtils;
@@ -51,13 +52,29 @@ public class Utils {
 		ExtLibUtil.getViewScope().put("dumpValue", details);
 	}
 
-	public static void dumpUserBeanPlugin() {
+	public static void dumpUserBeanPluginBasic() {
 		ArrayList<DemoObject> people = new ArrayList<DemoObject>();
 		people.add(new DemoObject("Paul", "Withers", "Reading", 41));
 		people.add(new DemoObject("John", "Doe", "London", 28));
 		String details = "";
 		for (DemoObject person : people) {
 			details = details + DemoUtils.convertObjectToString(person) + "<br/>";
+		}
+		ExtLibUtil.getViewScope().put("dumpValue", details);
+	}
+
+	public static void dumpUserBeanPluginStyled() {
+		StandardToStringStyle style = new StandardToStringStyle();
+		style.setFieldSeparator("</span><br/><span style=\"color:red;font-weight:bold\">");
+		style.setContentStart("<br/><span style=\"color:red;font-weight:bold\">");
+		style.setContentEnd("</span><br/>");
+		style.setFieldNameValueSeparator("</span><span> - ");
+		ArrayList<DemoObject> people = new ArrayList<DemoObject>();
+		people.add(new DemoObject("Paul", "Withers", "Reading", 41));
+		people.add(new DemoObject("John", "Doe", "London", 28));
+		String details = "";
+		for (DemoObject person : people) {
+			details = details + DemoUtils.convertObjectToString(person, style) + "<br/>";
 		}
 		ExtLibUtil.getViewScope().put("dumpValue", details);
 	}

@@ -21,9 +21,15 @@
 					</xp:eventHandler>
 				</xp:button>
 
-				<xp:button value="Dump UserBean (Plugin)" id="button2">
+				<xp:button value="Dump UserBean (Plugin) Basic" id="button2">
 					<xp:eventHandler event="onclick" submit="true" refreshMode="partial" refreshId="returnDiv">
-						<xp:this.action><![CDATA[#{javascript:org.iconuk.Utils.dumpUserBeanPlugin();}]]></xp:this.action>
+						<xp:this.action><![CDATA[#{javascript:org.iconuk.Utils.dumpUserBeanPluginBasic();}]]></xp:this.action>
+					</xp:eventHandler>
+				</xp:button>
+
+				<xp:button value="Dump UserBean (Plugin) Styled" id="button4">
+					<xp:eventHandler event="onclick" submit="true" refreshMode="partial" refreshId="returnDiv">
+						<xp:this.action><![CDATA[#{javascript:org.iconuk.Utils.dumpUserBeanPluginStyled();}]]></xp:this.action>
 					</xp:eventHandler>
 				</xp:button>
 
