@@ -8,7 +8,7 @@
 				<xe:this.treeNodes>
 					<xe:pageTreeNode label="Home" page="/Home.xsp"></xe:pageTreeNode>
 					<xe:pageTreeNode label="Demo Utils" page="/DemoUtil.xsp"></xe:pageTreeNode>
-
+					<xe:pageTreeNode label="Demo Component" page="/DemoComponent.xsp"></xe:pageTreeNode>
 				</xe:this.treeNodes>
 			</xe:navigator>
 		</xp:this.facets>
