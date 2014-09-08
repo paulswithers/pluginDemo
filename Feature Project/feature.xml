@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.paulwithers.iconuk.demoPlugin.feature"
+      label="Icon UK Demo Feature"
+      version="1.0.0.qualifier"
+      provider-name="Paul Withers">
+
+   <description url="http://www.example.com/description">
+      Feature project for ICON UK plugin demo
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright Paul Withers 2014
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      Intended to support presentation at ICON UK and for training purposes only. No support intended. Not intended for production usage in this format.
+   </license>
+
+   <plugin
+         id="com.paulwithers.iconuk.demoPlugin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.paulwithers.iconuk.demoPlugin.libraries"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

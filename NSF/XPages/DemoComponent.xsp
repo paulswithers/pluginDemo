@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom"
+	xmlns:IconUk="http://www.paulwithers.com/xsp/IconUk">
+	<xc:layout>
+		<xp:this.facets>
+			<xp:panel xp:key="facetMiddle">
+				<xp:text escape="true" id="computedField2"
+					value="Here is a component with five spaces **START**">
+				</xp:text>
+				<IconUk:htmlSeparator count="5" separatorType="Space"></IconUk:htmlSeparator>
+				<xp:text escape="true" id="computedField3" value="**END**">
+				</xp:text>
+				<xp:text escape="true" id="computedField4"
+					value="Here is a component with five blank lines **START**">
+				</xp:text>
+				<IconUk:htmlSeparator count="5" separatorType="New Line"></IconUk:htmlSeparator>
+				<xp:text escape="true" id="computedField5" value="**END**">
+				</xp:text>
+			</xp:panel>
+		</xp:this.facets>
+	</xc:layout>
+</xp:view>

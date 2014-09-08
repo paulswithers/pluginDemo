@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.paulwithers.iconuk.demoPlugin.feature_1.0.0.201408302320.jar" id="com.paulwithers.iconuk.demoPlugin.feature" version="1.0.0.201408302320">
+      <category name="iconuk"/>
+   </feature>
+   <category-def name="iconuk" label="ICON UK"/>
+</site>

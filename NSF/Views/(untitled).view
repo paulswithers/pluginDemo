@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.2'
+ replicaid='80257D410071C0E0' showinmenu='true' publicaccess='false' default='true'
+ noviewformat='true'>
+<noteinfo noteid='116' unid='8B482C8EE0F6811C80257D410071C119' sequence='1'>
+<created><datetime dst='true'>20140827T214230,01+01</datetime></created>
+<modified><datetime dst='true'>20140827T214230,04+01</datetime></modified>
+<revised><datetime dst='true'>20140827T214230,01+01</datetime></revised>
+<lastaccessed><datetime dst='true'>20140827T214230,04+01</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140827T214230,04+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin/O=Intec-PW</name></updatedby><code event='selection'><formula
+>SELECT @All</formula></code>
+<item name='$FormulaClass'><text>1</text></item></view>
+
