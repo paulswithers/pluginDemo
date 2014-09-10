@@ -22,7 +22,7 @@ public class HtmlSeparator extends UIOutputEx {
 		if (separatorType != null) {
 			return separatorType;
 		}
-		ValueBinding vb = getValueBinding("type");
+		ValueBinding vb = getValueBinding("separatorType");
 		if (vb != null) {
 			return (String) vb.getValue(getFacesContext());
 		} else {
@@ -38,7 +38,7 @@ public class HtmlSeparator extends UIOutputEx {
 		if (count != Integer.MIN_VALUE) {
 			return count;
 		}
-		ValueBinding vb = getValueBinding("type");
+		ValueBinding vb = getValueBinding("count");
 		if (vb != null) {
 			Object result = vb.getValue(getFacesContext());
 			if (result == null) {
